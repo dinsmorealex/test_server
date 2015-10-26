@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>slider-search</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css"> -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flow.js"></script>
+	
+<style>
+		body {
+		  font-family: sans-serif;
+		  font-size: 16px;
+		  margin: 50px;
+		  max-width: 800px;
+		  color:blue;
+		}
+#good{
+	float:left;
+	color:blue;
+	width:25%;
+
+}
+
+#bad{
+	float:left;
+	color:red;
+	width:25%;
+
+}
+
+#meh{
+	float:left;
+	color: green;
+	width:25%;
+
+}
+		#h1{
+			margin: 0 auto;
+			text-align:center;
+			text-align:center;
+			color:blue;
+
+		}
+
+		#search-box{
+			width:100%;
+			margin: 0 auto;
+			text-align:center;
+		}
+
+		#display{
+			width:25%;
+
+			float:left;
+			
+		}
+
+		
+
+</style>
+	
+</head>
+<body>
+	<h1>SLIDER SEARCH</h1>
+	<div id="search-box"></div>
+	<div id="display"></div>
+	<div id="good"><h1>good</h1></div>
+	<div id="bad"><h1>bad</h1></div>
+	<div id="meh"><h1>milk</h1></div>
+
+
+	
+</body>
+</html>
